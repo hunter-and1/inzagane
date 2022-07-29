@@ -1,0 +1,137 @@
+
+* {
+  box-sizing: border-box
+}
+
+
+/* arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Tajawal'), local('Tajawal-Regular'), url(../fonts/Iura6YBj_oCad4k1nzSBC45I.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Tajawal'), local('Tajawal-Regular'), url(../fonts/Iura6YBj_oCad4k1nzGBCw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Tajawal Medium'), local('Tajawal-Medium'), url(../fonts/Iurf6YBj_oCad4k1l8KiHrRpiYlJ.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Tajawal Medium'), local('Tajawal-Medium'), url(../fonts/Iurf6YBj_oCad4k1l8KiHrFpiQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Tajawal Bold'), local('Tajawal-Bold'), url(../fonts/Iurf6YBj_oCad4k1l4qkHrRpiYlJ.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Tajawal Bold'), local('Tajawal-Bold'), url(../fonts/Iurf6YBj_oCad4k1l4qkHrFpiQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+  margin: 0;
+  background: #f2f5fa;
+  font-family: Tajawal,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 1.5;
+  padding-top: 70px;
+}
+table{
+  text-align: right;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse; 
+
+}
+
+th {
+    /* background: white; */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.nx-draw-text{
+  position: absolute;display: block;z-index: 1000;
+  width: 200px;
+  transform: translateX(-50%);
+}
+.nx-draw-text > span{
+  position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);
+}
+.nx-area-text{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  direction: rtl;
+}
+
+.nx-info-text{
+  font-size: 29px;
+  font-weight: bold;
+  text-align: right;
+  direction: rtl;
+  color: #ffd573;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+
+}
+#tchkhis-text,
+#halat-text,
+#mot3afa-text,
+#death-text,
+#nega-text
+{
+  position: absolute;display: block;z-index: 1000;
+}
+.tch-text{color: #fff;}
+.conf-text{color: #2c43bb;}
+.heal-text{color: #0b6f2d;}
+.death-text{color: #dd2a2a;}
+.nega-text{color: #e75f0b;}
+
+.nx-bottom-text{
+  font-size: 18px;
+  color: #fff;
+  text-align: right;
+  direction: rtl;
+}
+#btnSave{
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+}
